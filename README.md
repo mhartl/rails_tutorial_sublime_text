@@ -1,6 +1,8 @@
-# Rails Tutorial Sublime Text auxiliary files.
+# Rails Tutorial Sublime Text setup
 
-These are auxiliary files to configure [Sublime Text 2](http://www.sublimetext.com/) as in the [Ruby on Rails Tutorial](http://ruby.railstutorial.org). Setup on Mac OS X is as follows:
+These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com/) as in the [Ruby on Rails Tutorial](http://ruby.railstutorial.org). 
+
+## Copy auxiliary files
 
     $ cd /tmp
     $ git clone git@github.com:mhartl/rails_tutorial_sublime_text.git
@@ -8,3 +10,36 @@ These are auxiliary files to configure [Sublime Text 2](http://www.sublimetext.c
             ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 
 Setup on Linux should be similar, but with a different target directory for `cp`. If you know how to set it up on Windows, please [let me know](http://railstutorial.org/contact).
+
+## Set up the theme
+
+Select `Preferences > Color Scheme > User > Railscasts`
+
+## Install the Rails Tutorial snippets
+
+[https://github.com/mhartl/rails_tutorial_snippets](https://github.com/mhartl/rails_tutorial_snippets)
+
+## Install Sublime Alternative Auto-completion
+
+[https://github.com/alexstaubo/sublime_text_alternative_autocompletion](https://github.com/alexstaubo/sublime_text_alternative_autocompletion)
+
+## Install Sublime ERb
+
+[https://github.com/eddorre/SublimeERB](https://github.com/eddorre/SublimeERB)
+
+## Install RubyTest
+
+[https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests)
+
+Edit the file "Theme - Default/Widget.sublime-settings" in the Library/Application\ Support/Sublime\ Text\ 2/Packages directory:
+
+    $ subl "Theme - Default/Widget.sublime-settings" 
+
+In that file, change
+
+    "color_scheme": "Packages/Theme - Default/Widgets.stTheme"
+
+to 
+
+    "color_scheme": "Packages/User/CustomTestConsole.tmTheme"
+
