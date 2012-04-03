@@ -2,6 +2,14 @@
 
 These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com/) as in the [Ruby on Rails Tutorial](http://ruby.railstutorial.org). 
 
+## Basic configuration
+
+`View > Hide Minimap`
+
+`View > Side Bar > Hide Side Bar`
+
+`View > Layout > Columns: 2`
+
 ## Copy auxiliary files
 
     $ cd /tmp
