@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[it "should ${1:description}" do
+	$0
+end]]></content>
+    <tabTrigger>it</tabTrigger>
+    <scope>source.ruby.rspec</scope>
+    <description>it "should description" do … end</description>
+</snippet>
