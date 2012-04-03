@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[its(:$1) { should$0 }]]></content>
-    <tabTrigger>its</tabTrigger>
-    <scope>source.ruby.rspec</scope>
-    <description>its</description>
-</snippet>

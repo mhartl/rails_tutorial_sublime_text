@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[let(:$1) { $2 }]]></content>
-    <tabTrigger>let</tabTrigger>
-    <scope>source.ruby.rspec</scope>
-    <description>let</description>
-</snippet>
