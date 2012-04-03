@@ -23,15 +23,13 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 [https://github.com/alexstaubo/sublime_text_alternative_autocompletion](https://github.com/alexstaubo/sublime_text_alternative_autocompletion)
 
-## Install Sublime ERb
+## Install SublimeERB
 
 [https://github.com/eddorre/SublimeERB](https://github.com/eddorre/SublimeERB)
 
 ## Install RubyTest
 
-[https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests)
-
-Edit the file "Theme - Default/Widget.sublime-settings" in the Library/Application\ Support/Sublime\ Text\ 2/Packages directory:
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). Then edit the file "Theme - Default/Widget.sublime-settings" in the Library/Application\ Support/Sublime\ Text\ 2/Packages directory:
 
     $ subl "Theme - Default/Widget.sublime-settings" 
 
