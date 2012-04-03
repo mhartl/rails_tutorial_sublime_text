@@ -1,6 +1,6 @@
 # Rails Tutorial Sublime Text setup
 
-These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com/) as in the [Ruby on Rails Tutorial](http://ruby.railstutorial.org). 
+These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com/) as in the [Ruby on Rails Tutorial](http://ruby.railstutorial.org). Instructions are for OS X; Linux and Windows users should make substitutions as necessary.
 
 ## Basic configuration
 
@@ -37,8 +37,8 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Install RubyTest
 
-Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). Then edit the file "Theme - Default/Widget.sublime-settings" in the Library/Application\ Support/Sublime\ Text\ 2/Packages directory:
-
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). Then edit the file `"Theme - Default/Widget.sublime-settings"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages directory`:
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     $ subl "Theme - Default/Widget.sublime-settings" 
 
 In that file, change
