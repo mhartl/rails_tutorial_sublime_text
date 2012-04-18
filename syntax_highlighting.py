@@ -27,5 +27,5 @@ class DetectFileTypeCommand(sublime_plugin.EventListener):
 def set_syntax(view, syntax, path=None):
   if path is None:
     path = syntax
-  view.settings().set('syntax', 'Packages/'+ path + '/' + syntax + '.tmLanguage')
+  view.set_syntax_file('Packages/' + path + '/' + syntax + '.tmLanguage')
   print "Switched syntax to: " + syntax
