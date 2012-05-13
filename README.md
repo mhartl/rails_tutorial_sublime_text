@@ -26,6 +26,10 @@ On Windows, the target directory is as follows:
     $ cp -r .\rails_tutorial_sublime_text\* \
             '~\AppData\Roaming\Sublime Text 2\Packages\User'
 
+## Install Sass syntax highlighting
+
+Follow the instructions at [sublime-text-haml-sass](https://github.com/n00ge/sublime-text-haml-sass).
+
 ## Set up the theme
 
 Select `Preferences > Color Scheme > User > Railscasts`
