@@ -50,7 +50,7 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 [https://github.com/mhartl/rails_tutorial_snippets](https://github.com/mhartl/rails_tutorial_snippets)
 
-## Install Sublime Alternative Auto-completion
+## Install Sublime Text Alternative Auto-completion
 
 [https://github.com/alexstaubo/sublime_text_alternative_autocompletion](https://github.com/alexstaubo/sublime_text_alternative_autocompletion)
 
