@@ -14,6 +14,8 @@ For other platforms, either double-click the application icon or search around t
 
 ## Basic configuration
 
+Open up Sublime Text and use the `View` menu to modify the following settings:
+
 `View > Hide Minimap`
 
 `View > Side Bar > Hide Side Bar`
