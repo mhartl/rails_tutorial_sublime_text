@@ -2,7 +2,7 @@
 
 These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com/) as in the [Ruby on Rails Tutorial](http://ruby.railstutorial.org). Instructions are for OS X; Linux and Windows users should make substitutions as necessary. (This may require web searches. Please let me know if you find something that you think should be included here.)
 
-## Set up a command-line command
+## Command-line command
 
 On OS X, you can set up a command-line command by following the [Sublime Text&nbsp;2 instructions for the OS X command line](http://www.sublimetext.com/docs/2/osx_command_line.html):
 
