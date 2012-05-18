@@ -4,7 +4,7 @@ These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com
 
 ## Command-line command
 
-On OS X, you can set up a command-line command by following the [Sublime Text&nbsp;2 instructions for the OS X command line](http://www.sublimetext.com/docs/2/osx_command_line.html):
+On OS X, you can set up `subl` as a command-line command by following the [Sublime Text&nbsp;2 instructions for the OS X command line](http://www.sublimetext.com/docs/2/osx_command_line.html):
 
     $ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
