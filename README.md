@@ -8,13 +8,17 @@ On OS X, you can set up `subl` as a command-line command by following the [Subli
 
     $ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
-This assumes that `~/bin` is in your path.
+This assumes that `~/bin` is in your path. If isn't (which you can check using `echo $PATH` at the command line) you can put `subl` in `/usr/bin`:
+
+    $ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+
+ Note the use of `sudo`, which is required because ordinary users don't have permission to write to `/usr/bin`. 
 
 On Linux (especially Ubuntu), the command is the same as for OS X; only the paths differ:
 
     $ sudo ln -s ~/Applications/Sublime\ Text\ 2/sublime_text /usr/bin/subl
 
-(You may have to replace the path to `sublime_text` with the correct one for your system.) Note here the use of `sudo`, which is required because ordinary users don't have permission to write to `/usr/bin`. 
+(You may have to replace the path to `sublime_text` with the correct one for your system.)
 
 On Linux Mint, take a look at [Install Sublime Text 2 in Linux Mint](http://blog.hugeaim.com/2012/03/13/install-sublime-text-2-in-linux-mint/).
 
