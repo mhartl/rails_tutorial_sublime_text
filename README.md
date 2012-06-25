@@ -10,7 +10,13 @@ On OS X, you can set up `subl` as a command-line command by following the [Subli
 
 This assumes that `~/bin` is in your path.
 
-For other platforms, either double-click the application icon or search around to learn how to set a command-line command. (Please email me if you figure it out for either Windows or Linux and I'll post the results here.)
+On Linux, the command is the same as for OS X; only the paths differ:
+
+    $ sudo ln -s ~/Applications/Sublime\ Text\ 2/sublime_text /usr/bin/subl
+
+(You may have to replace the path to `sublime_text` with the correct one for your system.) Note here the use of `sudo`, which is required because ordinary users don't have permission to write to `/usr/bin`.
+
+On Windows, you can simply double-click the application icon. The setup at the command line depends on which shell you use; see if one of the techinques at the [Stack Overflow discussion on Sublime Text from Command Line (Win7)](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) works for you.
 
 ## Basic configuration
 
