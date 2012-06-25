@@ -41,7 +41,10 @@ Open up Sublime Text and use the `View` menu to modify the following settings:
     $ cp -r rails_tutorial_sublime_text/* \
             ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 
-Setup on Linux should be similar, but with a different target directory for `cp`. 
+Setup on Linux is similar, but with a different target directory for `cp`:
+
+    $ cp -r rails_tutorial_sublime_text/* \
+            ~/.config/sublime-text-2/Packages/User/
 
 On Windows, the target directory is as follows:
 
