@@ -75,7 +75,7 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Install RubyTest
 
-Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). Then edit the file `"Theme - Default/Widget.sublime-settings"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages directory`:
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). Then edit the file `"Theme - Default/Widget.sublime-settings"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     $ subl "Theme - Default/Widget.sublime-settings" 
