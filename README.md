@@ -53,6 +53,8 @@ On Windows, the target directory is as follows:
     $ cp -r .\rails_tutorial_sublime_text\* \
             '~\AppData\Roaming\Sublime Text 2\Packages\User'
 
+Note: If using Windows Vista, 7 or 8, "tmp" = "temp" ... and with the Windows commands above you are first copying all the folders and files from this remote repo above into your local temporary folder located here C:\Users\User\AppData\Local\Temp and then proceeding to move these same files here: to C:\Users\User\AppData\Roaming\Sublime Text 2\Packages\User
+
 ## Install Sass syntax highlighting
 
 Follow the instructions at [sublime-text-haml-sass](https://github.com/n00ge/sublime-text-haml-sass).
