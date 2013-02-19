@@ -8,7 +8,7 @@ On OS X, you can set up `subl` as a command-line command like this:
 
     $ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl 
 
-On Linux (especially Ubuntu), the command is to OS X; the paths differ and you must use `sudo`, which is required because ordinary users don't have permission to write to `/usr/bin`. :
+On Linux (especially Ubuntu), the command is similar to OS X; the paths differ and you must use `sudo`, which is required because ordinary users don't have permission to write to `/usr/bin`:
 
     $ sudo ln -s ~/Applications/Sublime\ Text\ 2/sublime_text /usr/bin/subl
 
