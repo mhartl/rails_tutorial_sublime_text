@@ -31,4 +31,4 @@ def set_syntax(view, syntax, path=None):
         path = syntax
     view.settings().set('syntax', 'Packages/' + path + '/' + 
                                   syntax + '.tmLanguage')
-    print "Switched syntax to: " + syntax
+    print("Switched syntax to: " + syntax)
