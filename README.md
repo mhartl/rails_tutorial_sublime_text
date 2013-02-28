@@ -12,6 +12,14 @@ On Linux (especially Ubuntu), the command is similar to OS X; the paths differ a
 
     $ sudo ln -s ~/Applications/Sublime\ Text\ 2/sublime_text /usr/bin/subl
 
+Alternatively, add an alias to `sumblime_text` in your `~/.bashrc` file.  This method doesn't require `sudo`. But it assumes you are using `bash`. There are similar methods available for other shells. Google is your friend.
+
+Use any editor like gedit or vim to open `~/.bashrc`.
+    
+    $ gedit ~/.bashrc
+    
+Add `alias subl='~/Applications/Sublime\ Text\ 2/sublime_text'` at the end of the file. Save and exit.
+
 (You may have to replace the path to `sublime_text` with the correct one for your system.)
 
 On Linux Mint, take a look at [Install Sublime Text 2 in Linux Mint](http://blog.hugeaim.com/2012/03/13/install-sublime-text-2-in-linux-mint/).
