@@ -71,16 +71,38 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Install RubyTest
 
-Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). Then edit the file `"Theme - Default/Widget.sublime-settings"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). 
 
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-    $ subl "Theme - Default/Widget.sublime-settings" 
+Then edit the file `"Theme - Default/Widget.sublime-settings"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
+
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyTest
+    $ subl TestConsole.hidden-tmTheme 
 
 In that file, change
 
-    "color_scheme": "Packages/Theme - Default/Widgets.stTheme"
+    <string>#FF1493</string>
 
 to 
 
-    "color_scheme": "Packages/User/CustomTestConsole.tmTheme"
+    <string>#FF0000</string>
+
+If you ever get the error
+
+    /bin/sh: rspec: command not found
+
+you can simply quit Sublime Text and then restart it by typing
+
+    $ subl
+
+(with no dot). If you are using [RVM](http://rvm.io), you can prevent the problem from recurring by running
+
+    $ subl RubyTest.sublime-settings
+
+and changing
+
+      "check_for_rvm": false,
+
+to
+
+      "check_for_rvm": true,
 
