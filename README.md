@@ -6,7 +6,9 @@ These are the steps needed to set up [Sublime Text 2](http://www.sublimetext.com
 
 On OS X, you can set up `subl` as a command-line command like this:
 
-    $ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl 
+    $ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin
+
+This assumes that there is a `~/bin` directory on your executable path. If that isn't the case, follow the instructions on [this Stack Overflow thread](http://stackoverflow.com/questions/13655343/sublime-text-2-os-x-command-line).
 
 On Linux (especially Ubuntu), the command is similar to OS X; the paths differ and you must use `sudo`, which is required because ordinary users don't have permission to write to `/usr/bin`:
 
