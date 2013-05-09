@@ -75,7 +75,7 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). 
 
-Then edit the file `"Theme - Default/Widget.sublime-settings"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
+Then edit the file `"TestConsole.hidden-tmTheme"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyTest
     $ subl TestConsole.hidden-tmTheme 
