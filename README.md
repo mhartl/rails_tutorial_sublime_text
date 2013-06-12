@@ -33,7 +33,7 @@ Open up Sublime Text and use the `View` menu to modify the following settings:
 ## Copy auxiliary files
 
     $ cd /tmp
-    $ git clone git@github.com:mhartl/rails_tutorial_sublime_text.git
+    $ git clone https://github.com/mhartl/rails_tutorial_sublime_text.git
     $ cp -r rails_tutorial_sublime_text/* \
             ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
 
@@ -45,7 +45,7 @@ Setup on Linux is similar, but with a different target directory for `cp`:
 On Windows, the target directory is as follows:
 
     $ cd /tmp
-    $ git clone git@github.com:mhartl/rails_tutorial_sublime_text.git
+    $ git clone https://github.com/mhartl/rails_tutorial_sublime_text.git
     $ cp -r .\rails_tutorial_sublime_text\* \
             '~\AppData\Roaming\Sublime Text 2\Packages\User'
 
@@ -73,18 +73,18 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Install RubyTest
 
-Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests). 
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests).
 
 Then edit the file `"TestConsole.hidden-tmTheme"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyTest
-    $ subl TestConsole.hidden-tmTheme 
+    $ subl TestConsole.hidden-tmTheme
 
 In that file, change
 
     <string>#FF1493</string>
 
-to 
+to
 
     <string>#FF0000</string>
 
