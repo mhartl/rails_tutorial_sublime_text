@@ -17,9 +17,9 @@ On Linux (especially Ubuntu), the command is similar to OS X; the paths differ a
 Alternatively, add an alias to `sumblime_text` in your `~/.bashrc` file.  This method doesn't require `sudo`. But it assumes you are using `bash`. There are similar methods available for other shells. Google is your friend.
 
 Use any editor like gedit or vim to open `~/.bashrc`.
-    
+
     $ gedit ~/.bashrc
-    
+
 Add `alias subl='~/Applications/Sublime\ Text\ 2/sublime_text'` at the end of the file. Save and exit.
 
 (You may have to replace the path to `sublime_text` with the correct one for your system.)
@@ -61,7 +61,7 @@ Note: If using Windows Vista, 7, or 8, you should first copy all the folders and
 
 ## Install Sass syntax highlighting
 
-Follow the instructions at [sublime-text-haml-sass](https://github.com/n00ge/sublime-text-haml-sass).
+Install [Package Control](https://sublime.wbond.net/) and then go to `Preferences > Package Control`. Select `Install Package` and then select the Sass package.
 
 ## Set up the theme
 
@@ -81,9 +81,19 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Install RubyTest
 
-Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests).
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests), or install RubyTest using [Package Control](https://sublime.wbond.net/.
 
-Then edit the file `"TestConsole.hidden-tmTheme"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages` directory:
+Go to `Preferences > Package Settings > RubyTest > Settings - User` and paste in the following code:
+
+```javascript
+{
+  "check_for_rbenv": true,
+  "check_for_rvm": true,
+  "check_for_bundler": true
+}
+```
+
+If you want the "Red" part of "Red-Green-Refactor" to be truly red, edit the file `"TestConsole.hidden-tmTheme"` in the `Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyTest` directory:
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyTest
     $ subl TestConsole.hidden-tmTheme
@@ -96,6 +106,8 @@ to
 
     <string>#FF0000</string>
 
+You may have to restart Sublime Text 2 to activate the change.
+
 If you ever get the error
 
     /bin/sh: rspec: command not found
@@ -104,7 +116,7 @@ you can simply quit Sublime Text and then restart it by typing
 
     $ subl
 
-(with no dot). If you are using [RVM](http://rvm.io), you can prevent the problem from recurring by running
+(with no dot). <!-- If you are using [RVM](http://rvm.io), you can prevent the problem from recurring by running
 
     $ subl RubyTest.sublime-settings
 
@@ -116,3 +128,4 @@ to
 
       "check_for_rvm": true,
 
+ -->
