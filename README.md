@@ -116,16 +116,4 @@ you can simply quit Sublime Text and then restart it by typing
 
     $ subl
 
-(with no dot). <!-- If you are using [RVM](http://rvm.io), you can prevent the problem from recurring by running
-
-    $ subl RubyTest.sublime-settings
-
-and changing
-
-      "check_for_rvm": false,
-
-to
-
-      "check_for_rvm": true,
-
- -->
+(with no dot).
