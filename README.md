@@ -81,7 +81,7 @@ Select `Preferences > Color Scheme > User > Railscasts`
 
 ## Install RubyTest
 
-Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests), or install RubyTest using [Package Control](https://sublime.wbond.net/.
+Follow [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests), or install RubyTest using [Package Control](https://sublime.wbond.net/).
 
 Go to `Preferences > Package Settings > RubyTest > Settings - User` and paste in the following code:
 
