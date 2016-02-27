@@ -24,7 +24,7 @@ Add `alias subl='~/Applications/Sublime\ Text\ 2/sublime_text'` at the end of th
 
 (You may have to replace the path to `sublime_text` with the correct one for your system.)
 
-On Linux Mint, take a look at [Install Sublime Text 2 in Linux Mint](http://blog.hugeaim.com/2012/03/13/install-sublime-text-2-in-linux-mint/).
+On Linux Mint, take a look at [Install Sublime Text 2 in Linux Mint](http://www.codeproject.com/Articles/582849/InstallingplusSublimeplusTextplus-plusonplusLinuxp).
 
 On Windows, you can simply double-click the application icon. The setup at the command line depends on which shell you use; see if one of the techinques at the [Stack Overflow discussion on Sublime Text from Command Line (Win7)](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) works for you. You might also want to check out the video [Easily Open Files from Windows Command Prompt with Sublime Text 2](http://youtu.be/zcUpdw5_uSY) (I suggest changing `st2` to `subl` to be consistent with the instructions for the other platforms).
 
